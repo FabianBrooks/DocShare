@@ -9,3 +9,80 @@ body{
     height: 100vh;
     background-color: #FFEA28;
 }
+
+body .container{
+    width: 100%;
+    padding: 0 120px 0 120px;
+    display: flex;
+    flex-direction: column;
+} 
+
+.container .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0 16px 0;
+}
+
+.container .logo .appointment{
+    display: flex;
+    gap: 20px;
+}
+
+.container .logo .appointment a{
+    text-decoration: none;
+    color: #142349;
+    font-size: 15px;
+    font-family: DM Sans;
+}
+
+.container .logo .appointment .appointment-btn{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: blue;
+    font-size: 15px;
+    padding: 16px 28px;
+    font-family: DM Sans;
+    border-radius: 192px;
+    letter-spacing: 3px;
+    text-transform: uppercase;   
+}
+
+.container .logo .appointment .location{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.container .logo .appointment .phone_number{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+hr{
+    margin-bottom: 15px;
+}
+
+.container .navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #C7F0FD;
+    padding: 12px 52px;
+    border-radius: 45px;
+}
+
+.container .navbar .navs{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .navbar .navs a{
+    text-decoration: none;
+    font-family: Plus Jakarta Sans;
+    font-size: 15px;
+    color: #142349;
+}
